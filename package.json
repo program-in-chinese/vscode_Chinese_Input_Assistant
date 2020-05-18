@@ -52,6 +52,7 @@
 		"url": "https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant.git"
 	},
 	"dependencies": {
+		"pinyin-data": "1.0.0",
 		"wubi-code-data": "1.0.1"
 	},
 	"devDependencies": {
