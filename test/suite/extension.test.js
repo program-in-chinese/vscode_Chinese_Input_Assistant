@@ -31,7 +31,7 @@ const 待测代码 = [
 	"1+数'1",
 	"1+数:1",
 	"1+数\"1",
-	]
+]
 
 suite('Extension Test Suite', () => {
 	before(() => {
