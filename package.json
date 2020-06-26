@@ -1,69 +1,69 @@
 {
-	"name": "ChineseInputAssistant",
-	"displayName": "中文代码快速补全",
-	"description": "中文变量名方法名在拼音字母下提示并快速输入",
-	"version": "1.0.6",
-	"publisher": "CodeInChinese",
-	"engines": {
-		"vscode": "^1.38.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"*",
-		"onCommand:插件命令"
-	],
-	"main": "./插件.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "插件命令",
-				"title": "中文插件"
-			}
-		],
-		"configuration": {
-			"title": "中文代码快速补全",
-			"properties": {
-				"中文代码快速补全.提示方式": {
-					"type": "string",
-					"default": "全拼",
-					"enum": [
-						"全拼",
-						"五笔98全码",
-						"五笔98四码",
-						"小鹤双拼",
-						"搜狗双拼",
-						"微软双拼",
-						"自然码双拼",
-						"紫光双拼",
-						"拼音加加双拼"
-					],
-					"enumDescriptions": []
-				}
-			}
-		}
-	},
-	"scripts": {
-		"test": "node ./test/runTest.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant.git"
-	},
-	"dependencies": {
-		"pinyin-data": "1.0.0",
-		"wubi-code-data": "1.0.1"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.1",
-		"@types/mocha": "^5.2.6",
-		"@types/node": "^10.12.21",
-		"@types/vscode": "^1.38.0",
-		"eslint": "^5.13.0",
-		"glob": "^7.1.4",
-		"mocha": "^6.1.4",
-		"typescript": "^3.3.1",
-		"vscode-test": "^1.2.0"
-	}
+    "name": "ChineseInputAssistant",
+    "displayName": "中文代码快速补全",
+    "description": "中文变量名方法名在拼音字母下提示并快速输入",
+    "version": "1.0.6",
+    "publisher": "CodeInChinese",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*",
+        "onCommand:插件命令"
+    ],
+    "main": "./插件.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "插件命令",
+                "title": "中文插件"
+            }
+        ],
+        "configuration": {
+            "title": "中文代码快速补全",
+            "properties": {
+                "中文代码快速补全.提示方式": {
+                    "type": "string",
+                    "default": "全拼",
+                    "enum": [
+                        "全拼",
+                        "五笔98全码",
+                        "五笔98四码",
+                        "小鹤双拼",
+                        "搜狗双拼",
+                        "微软双拼",
+                        "自然码双拼",
+                        "紫光双拼",
+                        "拼音加加双拼"
+                    ],
+                    "enumDescriptions": []
+                }
+            }
+        }
+    },
+    "scripts": {
+        "test": "node ./test/runTest.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant.git"
+    },
+    "dependencies": {
+        "pinyin-data": "1.0.0",
+        "wubi-code-data": "1.0.1"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^10.12.21",
+        "@types/vscode": "^1.38.0",
+        "eslint": "^5.13.0",
+        "glob": "^7.1.4",
+        "mocha": "^6.1.4",
+        "typescript": "^3.3.1",
+        "vscode-test": "^1.2.0"
+    }
 }

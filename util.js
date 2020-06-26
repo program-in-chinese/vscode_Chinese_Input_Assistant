@@ -10,7 +10,7 @@ const util = {
      * getProjectPath(uri) uri 表示工程内某个文件的路径<br>
      * getProjectPath(document) document 表示当前被打开的文件document对象<br>
      * getProjectPath() 会自动从 activeTextEditor 拿document对象，如果没有拿到则报错
-     * @param {*} document 
+     * @param {*} document
      */
     getProjectPath(document) {
         if (!document) {
@@ -221,7 +221,7 @@ const util = {
     },
     /**
      * 动态require，和普通require不同的是，加载之前会先尝试删除缓存
-     * @param {*} modulePath 
+     * @param {*} modulePath
      */
     dynamicRequire(modulePath) {
         this.clearRequireCache(modulePath);
@@ -229,7 +229,7 @@ const util = {
     },
     /**
      * 读取properties文件
-     * @param {*} filePath 
+     * @param {*} filePath
      */
     readProperties(filePath) {
         const content = fs.readFileSync(filePath, 'utf-8');
@@ -246,8 +246,8 @@ const util = {
      * 比较2个对象转JSON字符串后是否完全一样
      * 特别注意，由于JS遍历对象的无序性（部分浏览器是按照添加顺序遍历的）导致同样的对象，
      * 转成JSON串之后反而不一样，所以这里采用其它方式实现。
-     * @param {*} obj1 
-     * @param {*} obj2 
+     * @param {*} obj1
+     * @param {*} obj2
      */
     jsonEquals(obj1, obj2) {
         let s1 = this.formatToSpecialJSON(obj1, '', true);
