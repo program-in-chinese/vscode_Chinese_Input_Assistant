@@ -55,6 +55,11 @@
 
 ## 版本说明
 
+### 1.0.6
+
+- 改进：[支持js模块中的中文属性](https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant/issues/18)
+- 重构：提取拼音数据到 npm 库
+
 ### 1.0.5
 
 - 鸣谢： @YoungBoron 修正五笔错码，以及五笔输入法增加传统的四码上屏功能
