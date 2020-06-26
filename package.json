@@ -2,7 +2,7 @@
 	"name": "ChineseInputAssistant",
 	"displayName": "中文代码快速补全",
 	"description": "中文变量名方法名在拼音字母下提示并快速输入",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"publisher": "CodeInChinese",
 	"engines": {
 		"vscode": "^1.38.0"

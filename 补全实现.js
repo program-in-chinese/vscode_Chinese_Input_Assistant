@@ -66,6 +66,6 @@ module.exports = function (context) {
     context.subscriptions.push(vscode.languages.registerCompletionItemProvider({ scheme: 'file', language: '*' }, {
         provideCompletionItems,
         resolveCompletionItem
-    }));
+    }, '.'));
 };
 
