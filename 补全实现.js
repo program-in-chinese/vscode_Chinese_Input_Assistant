@@ -29,12 +29,12 @@ async function provideCompletionItems(document, position, token, context) {
     // https://code.visualstudio.com/api/references/commands
     // vscode.executeCompletionItemProvider 会调用 provideCompletionItems, 所以要防止无限递归
     var 系统解析出的关键字 = await vscode.commands.executeCommand('vscode.executeCompletionItemProvider', document.uri, position)
-    console.log('系统解析出的关键字', 系统解析出的关键字)
+    // console.log('系统解析出的关键字', 系统解析出的关键字)
 
     // 过滤掉不包含中文的,就是提示文本了
     // 另外它似乎会在引入文本内解析一次,所以包含中文的字段会重复,过滤\t来把重复的字段删掉
     var 提示文本 = 系统解析出的关键字.items.filter(a => 包含中文(a.label)).filter(a => a.label.indexOf('\t') == -1)
-    console.log('提示文本', 提示文本)
+    // console.log('提示文本', 提示文本)
 
     // 将标签转成拼音返回
     return 提示文本.map(a => {
