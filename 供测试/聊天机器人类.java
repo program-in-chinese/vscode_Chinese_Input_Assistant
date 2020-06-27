@@ -7,7 +7,7 @@ import javax.jws.WebService;
 @WebService(endpointInterface = "聊天机器人.聊天接口")
 public class 聊天机器人类 implements 聊天接口 {
   private String 小秘密 = "";
-  
+
   @Override
   public String 回答(String 听到的) {
     System.out.println("我听到: " + 听到的);
