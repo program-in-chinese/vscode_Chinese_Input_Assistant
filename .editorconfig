@@ -1,9 +1,9 @@
 root = true
 
 [*]
-#缩进风格：空格
+#缩进风格
 indent_style = space
-#缩进大小2
+#缩进大小
 indent_size = 4
 #换行符lf
 end_of_line = lf
