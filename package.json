@@ -1,8 +1,8 @@
 {
     "name": "ChineseInputAssistant",
     "displayName": "中文代码快速补全",
-    "description": "中文变量名方法名在拼音字母下提示并快速输入",
-    "version": "1.0.6",
+    "description": "中文标识符（变量、方法名等）无需切换中文输入法即有补全提示",
+    "version": "1.1.0",
     "publisher": "CodeInChinese",
     "engines": {
         "vscode": "^1.38.0"
