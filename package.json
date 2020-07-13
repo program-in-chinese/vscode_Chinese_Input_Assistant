@@ -32,6 +32,8 @@
                         "全拼",
                         "五笔98全码",
                         "五笔98四码",
+                        "五笔86全码",
+                        "五笔86四码",
                         "小鹤双拼",
                         "搜狗双拼",
                         "微软双拼",
@@ -63,7 +65,7 @@
     },
     "dependencies": {
         "pinyin-data": "1.0.0",
-        "wubi-code-data": "1.0.1"
+        "wubi-code-data": "1.0.2"
     },
     "devDependencies": {
         "@types/glob": "^7.1.1",
