@@ -3,6 +3,12 @@
 
 # 中文代码快速补全
 
+【1.1.1 更新】试添加中文 snippets：2 个 Python 片段，1 个 JavaScript。如有相关建议如使用问题、希望添加的片段，欢迎[提 issue](https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant/issues)。支持中、英、拼音三种触发方式，下面是拼音演示（其他方式与瑕疵详见[此 PR](https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant/pull/24)）：
+
+![](截图/演示_snippet_拼音.png)
+
+## 功能简介
+
 英文输入下，匹配中文标识符。多谢 @lsby 实现了不限于当前文件内标识符的补全，如下面导入库的方法补全：
 
 ![演示](截图/演示_库.png)

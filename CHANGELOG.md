@@ -1,5 +1,9 @@
 ## 各版本更新说明
 
+### 1.1.1
+
+新功能：中文 snippet [试添加](https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant/pull/24)。
+
 ### 1.1.0
 
 改进：[获得vsc本身的提示并转为拼音](https://github.com/program-in-chinese/vscode_Chinese_Input_Assistant/pull/20)
