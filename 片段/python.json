@@ -1,0 +1,29 @@
+{
+  "读文件": {
+    "prefix": [
+      "file",
+      "WenJian",
+      "读文件"
+    ],
+    "body": [
+      "with open(${1:文件全路径}) as 文件:",
+      "\t内容 = 文件.read()"
+    ],
+    "description": "读取某文件"
+  },
+  "读所有文件": {
+    "prefix": [
+      "file",
+      "WenJian",
+      "读所有文件"
+    ],
+    "body": [
+      "import os",
+      "路径 = '.'",
+      "for 文件名 in os.listdir(路径):",
+      "\twith open(os.path.join(路径, 文件名)) as 文件:",
+      "\t\t内容 = 文件.read()"
+    ],
+    "description": "读取某目录下所有文件"
+  }
+}

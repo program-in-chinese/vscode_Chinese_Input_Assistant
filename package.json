@@ -42,7 +42,17 @@
                     "enumDescriptions": []
                 }
             }
-        }
+        },
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./片段/javascript.json"
+            },
+            {
+                "language": "python",
+                "path": "./片段/python.json"
+            }
+        ]
     },
     "scripts": {
         "test": "node ./test/runTest.js"
