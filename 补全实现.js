@@ -8,7 +8,7 @@ function 包含中文(str) {
 }
 function 获得拼音(提示方式, 文本) {
     var 拼音 = null
-    if (["五笔98全码", "五笔98四码"].includes(提示方式)) {
+    if (提示方式.indexOf("五笔")!=-1) {
         拼音 = 五笔.五笔(文本, 提示方式)
     } else {
         拼音 = bopomofo.pinyin(文本, 2, false, true, '')
